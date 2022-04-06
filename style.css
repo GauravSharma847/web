@@ -1,0 +1,95 @@
+body{
+    margin:0rem 2rem;
+}
+*{     
+     /*universal selector gitlearning  */
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    box-sizing: border-box;
+}
+ a{
+    text-decoration: none;
+    /* to remove underline in anchor */
+} 
+ li{
+    list-style: none;
+     /*to remove dot in front of li elements*/
+} 
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:red;
+}
+
+a{
+    font-size:1.2rem;
+    font-weight:bolder;
+}
+
+/* header */
+header{
+    display:flex;
+    /* manages space horizontally  */
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    margin-left: 2rem;
+}
+nav{
+    margin-right: 1rem;
+}
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    width:20rem;
+}
+ul>li{
+    width:30%;
+}
+
+/* main image */
+.main-img{
+    width:100%;
+    height:auto;
+}
+/* main area */
+.parent{
+    margin-top:2rem;
+    /* border:10px solid red; */
+     display:flex; 
+    /* text inside that parent includes image will be centered  */
+    text-align: center;
+    justify-content: center;
+
+}
+ .child{ 
+    /* border:5px solid blue;  */
+    width:30%;
+ } 
+
+
+.footer_parent{
+    height:5rem;
+    /* text-align: center; */
+    background-color: black;
+    
+    /*it is used to  perfectly center a div */
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.footer_content{
+    color: white;
+    /* boldness */
+    font-weight:500;
+    font-size: 1.5rem;
+    /* enforce uppercase */
+    text-transform: uppercase;
+}
